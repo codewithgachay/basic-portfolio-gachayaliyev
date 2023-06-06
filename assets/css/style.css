@@ -1,0 +1,257 @@
+/* UNIVERSAL SELECTOR */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 0.8999999999999999vw;
+    line-height: 1.8vw;
+
+}
+
+
+
+/* CODES FOR HTML BODY  */
+
+body {
+    background-image: url(../images/concrete_seamless.png);
+
+}
+
+
+
+
+
+/* CODES FOR HEADER SECTION */
+
+header {
+    display: inline-block;
+    width: 100%;
+    height: 7.5vw;
+    border-bottom: #cccccc 2px solid;
+}
+
+.logo {
+
+    font-size: 2.8vw;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    width: 20vw;
+    height: 7.5vw;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    margin-left: 10vw;
+    padding-top: 2.5vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+
+}
+
+.logo,
+.nav-links {
+    float: left;
+}
+
+.nav-links li:nth-child(2),
+.nav-links li:nth-child(3) {
+    border-left: 1px solid #cbcbcb;
+}
+
+.nav-links li {
+
+    padding-left: 0.5vw;
+    text-align: center;
+    font-size: 1vw;
+    display: inline-block;
+
+}
+
+.nav-links {
+    margin-top: 2.5vw;
+    margin-left: 45vw;
+}
+
+
+.nav-links a:hover,
+.nav-links li:hover {
+    color: #4aaaa5;
+
+
+
+}
+
+
+
+
+.a-nav-link a {
+    font-size: 1.6vw;
+    text-align: center;
+    padding-left: 1vw;
+    margin-right: 0.8500000000000001vw;
+
+}
+
+
+
+
+/* CODES FOR MAIN CONTAINERS */
+
+main {
+    clear: both;
+
+}
+
+.main-hr {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.container {
+    box-sizing: border-box;
+    float: left;
+}
+
+
+
+
+
+/* CODES FOR BIO CONTAINER */
+
+.bio-container {
+    margin-left: 10vw;
+    width: 60vw;
+    height: 35vw;
+    overflow: scroll;
+}
+
+.bio-container * {
+    padding: 3vw;
+}
+
+h2 {
+    padding: 0px !
+}
+
+.bio-photo {
+    float: left;
+    width: 15vw;
+    height: auto;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+
+.bio-container p {
+    text-align: justify;
+    font-size: 1.4000000000000001vw;
+
+}
+
+.bio-p-2 {
+    padding-top: 0px;
+}
+
+
+
+
+/* CODES FOR ASIDE CONTAINER */
+
+.aside-h2 {
+    margin-top: 1.6vw;
+    font-size: 1.4000000000000001vw;
+    margin-bottom: 1.0999999999999999vw;
+}
+
+.aside-container {
+    margin-left: 2.5vw;
+    width: 20vw;
+    height: 15vw;
+}
+
+.aside-photo {
+    width: 4.5vw;
+    height: 4.5vw;
+    margin-left: 0.75vw;
+}
+
+.aside-h2,
+.aside-hr,
+.aside-figure {
+    padding-left: 0.89vw;
+
+
+}
+
+
+.aside-figure {
+    margin-top: 1.0999999999999999vw;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+
+
+
+
+
+/* FOOTER CSS CODES */
+.footer-container {
+
+    border-top: #4aaaa5 7px solid;
+    margin-top: 40vw;
+    height: 7.5vw;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    background-color: #666666;
+}
+
+footer>p {
+    font-size: 1.4000000000000001vw;
+    color: white;
+    margin-top: 2.5vw;
+}
+
+
+
+
+
+/* COMMON CODES  */
+
+.bio-container,
+.aside-container {
+    border: 1px solid gray;
+}
+
+
+h1,
+h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+}
+
+header,
+.bio-container,
+.aside-container {
+    background-color: #ffffff;
+}
+
+.bio-container,
+.aside-container {
+    margin-top: 2vw;
+}
+
+.bio-hr,
+.aside-hr {
+    border: 2px solid #dddddd;
+    padding: 0px;
+    margin-left: 0.8999999999999999vw;
+    color: #dddddd;
+    margin-right: 0.8999999999999999vw;
+}
