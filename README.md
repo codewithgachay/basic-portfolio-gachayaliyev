@@ -1,6 +1,6 @@
 # Hi, I'm Gachay 👋 👨🏻‍💻
 
-<img src="./assets/images/cv.jpg" alt="photo of Gachay">
+<img src="./assets/images/IMG_0033.jpg" alt="photo of Gachay">
 I’m a web developer with in-depth experience in UI/UX design and a couple of years hands on
                 development, design and coding in server side and client side. Strong understanding of the programming
                 language fundamentals, OOP principles, design patterns and engineering practices. Knowledge of Web
