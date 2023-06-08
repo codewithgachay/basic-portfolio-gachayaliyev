@@ -1,0 +1,376 @@
+/* ALL IPMORTED CSS CODES  */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,700');
+
+
+
+/* CODES FOR HTML BODY  */
+
+body {
+    background-image: url(../images/concrete_seamless.png);
+
+}
+
+
+
+
+
+
+/* CODES FOR HEADER SECTION */
+
+header {
+    display: inline-block;
+    width: 100%;
+    height: 7.5vw;
+    border-bottom: #cccccc 2px solid;
+}
+
+
+.logo {
+    text-decoration: none;
+    font-size: 2.8vw;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    width: 20vw;
+    height: 7.5vw;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    margin-left: 10vw;
+    padding-top: 2.5vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+
+}
+
+.logo,
+.nav-links {
+    float: left;
+}
+
+.nav-links li:nth-child(2),
+.nav-links li:nth-child(3) {
+    border-left: 1px solid #cbcbcb;
+}
+
+.nav-links li {
+
+    padding-left: 0.5vw;
+    text-align: center;
+    font-size: 1vw;
+    display: inline-block;
+
+}
+
+.nav-links {
+    margin-top: 2.5vw;
+    margin-left: 45vw;
+}
+
+
+.nav-links a:hover,
+.nav-links li:hover {
+    color: #4aaaa5;
+
+
+
+}
+
+.a-nav-link a {
+    font-size: 1.6vw;
+    text-align: center;
+    padding-left: 1vw;
+    margin-right: 0.8500000000000001vw;
+
+}
+
+
+
+
+/* CODES FOR MAIN CONTAINERS */
+
+main {
+    clear: both;
+
+}
+
+.main-hr {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.container {
+    box-sizing: border-box;
+    float: left;
+}
+
+
+
+
+
+/* CODES FOR PORTFOLIO CONTAINER */
+
+/* Containers */
+
+.portfolio-container {
+    margin-left: 10vw;
+    width: 60vw;
+    height: 35vw;
+    overflow: scroll;
+    text-decoration: none;
+}
+
+.portfolio-container h1,
+.portfolio-container h1 {
+    padding: 3vw;
+}
+
+.first-img-container,
+.more-container {
+    margin-left: 7vw !important;
+}
+
+.portfolio-container .container-b {
+    display: inline-block;
+    float: left;
+}
+
+.second-picture-in-row,
+.third-picture-in-row {
+    padding-left: 0.8vw !important;
+}
+
+.container-b img {
+    width: 14.45vw;
+    height: 21.7vw;
+}
+
+.container-c img:hover {}
+
+.hover:hover {
+    opacity: 0.9;
+}
+
+.item-fade {
+    background: black;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
+
+.container-b figure>figcaption {}
+
+
+.more-container {
+    float: left;
+    display: inline-block;
+}
+
+
+/* the other elements */
+
+h1 {
+    font-size: 3vw;
+}
+
+section h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    padding: 4vw 5% 1vw 5% !important;
+    color: rgb(38, 38, 38);
+}
+
+section h4 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    padding: 0 5% 3rem 5% !important;
+    font-family: "Montserrat", sans-serif;
+    color: #262626;
+}
+
+.portfolio-container p {
+    text-align: justify;
+    font-size: 1.4000000000000001vw;
+
+}
+
+.portfolio-p-2 {
+    padding-top: 0px;
+}
+
+.portfolio-hr {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+
+
+figcaption {
+    position: relative;
+    bottom: 100px;
+    left: -10px;
+    color: rgb(255, 255, 255);
+    font: smaller sans-serif;
+    padding: 3px;
+    text-align: right;
+    opacity: 0.7;
+    line-height: 1.5;
+    margin-bottom: 4vw;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.fig-author {
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: 30px;
+    bottom: 50px;
+    left: 200px;
+    color: #cbcbcb;
+    position: absolute;
+    font-weight: 300;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.more-container {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 5%;
+    margin-bottom: 5%;
+}
+
+.more,
+.more:link,
+more:visited {
+    color: #262626;
+    font-weight: 700;
+    padding: 10px;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s;
+    /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.5s;
+}
+
+.more:hover {
+    opacity: 1;
+}
+
+
+
+
+
+/* CODES FOR ASIDE CONTAINER */
+
+.aside-h2 {
+    margin-top: 1.6vw;
+    font-size: 1.5vw;
+    margin-bottom: 1.0999999999999999vw;
+}
+
+.aside-container {
+    margin-left: 2.5vw;
+    width: 20vw;
+    height: 15vw;
+}
+
+.aside-photo {
+    width: 4.5vw;
+    height: 4.5vw;
+    margin-left: 0.75vw;
+}
+
+.aside-h2,
+.aside-hr,
+.aside-figure {
+    margin-left: 2vw;
+
+
+}
+
+.aside-figure {
+    margin-top: 2.28vw;
+    margin-left: 1.4vw;
+    padding-left: 0px;
+
+}
+
+
+
+.aside-hr {
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+
+
+
+
+
+
+/* FOOTER CSS CODES */
+.footer-container {
+
+    border-top: #4aaaa5 7px solid;
+    margin-top: 40vw;
+    height: 7.5vw;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    background-color: #666666;
+}
+
+footer>p {
+    font-size: 1.4000000000000001vw;
+    color: white;
+    margin-top: 2.5vw;
+}
+
+
+
+
+
+
+/* COMMON CODES  */
+
+.portfolio-container,
+.aside-container {
+    border: 1px solid gray;
+}
+
+
+h1,
+h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+}
+
+header,
+.portfolio-container,
+.aside-container {
+    background-color: #ffffff;
+}
+
+.portfolio-container,
+.aside-container {
+    margin-top: 2vw;
+}
+
+.portfolio-hr,
+.aside-hr {
+    border: 2px solid #dddddd;
+    padding: 0px;
+    color: #dddddd;
+
+}

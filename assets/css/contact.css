@@ -70,9 +70,6 @@ header {
 
 }
 
-
-
-
 .a-nav-link a {
     font-size: 1.6vw;
     text-align: center;
@@ -163,7 +160,7 @@ textarea {
 input,
 button,
 textarea {
-    border: 1px solid #cbcbcb;
+    border: 1px solid #c2c2c2;
 }
 
 input:hover,
@@ -188,7 +185,7 @@ textarea {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8999999999999999vw;
     padding-left: 0.5vw;
-    color: #0a0a0a;
+    color: #000000;
     margin-top: 0.45vw;
 }
 
@@ -199,8 +196,10 @@ label {
 
 input {
     height: 1.9vw;
+}
 
-
+::placeholder {
+    color: #c2c2c2
 }
 
 textarea {
@@ -229,6 +228,7 @@ button {
     color: white;
     padding-bottom: 0.7vw auto;
 }
+
 
 
 
@@ -268,8 +268,6 @@ button {
 
 }
 
-
-
 .aside-hr {
     margin-left: 2vw;
     margin-right: 2vw;
@@ -298,6 +296,7 @@ footer>p {
     color: white;
     margin-top: 2.5vw;
 }
+
 
 
 

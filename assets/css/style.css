@@ -70,9 +70,6 @@ header {
 
 }
 
-
-
-
 .a-nav-link a {
     font-size: 1.6vw;
     text-align: center;
@@ -80,6 +77,8 @@ header {
     margin-right: 0.8500000000000001vw;
 
 }
+
+
 
 
 
@@ -96,13 +95,14 @@ main {
     padding-top: 0px;
 }
 
-
 .container {
     box-sizing: border-box;
     float: left;
 }
 
-
+h1 {
+    font-size: 3vw;
+}
 
 
 
@@ -152,6 +152,7 @@ h1 {
 
 
 
+
 /* CODES FOR ASIDE CONTAINER */
 
 .aside-h2 {
@@ -186,8 +187,6 @@ h1 {
     padding-left: 0px;
 
 }
-
-
 
 .aside-hr {
     margin-left: 2vw;
