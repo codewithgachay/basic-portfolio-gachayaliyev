@@ -11,9 +11,8 @@ header {
 .logo {
     text-decoration: none;
     font-size: 2.8vw;
-    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    width: 20vw;
+    width: 24vw;
     height: 7.5vw;
     text-align: center;
     color: white;
@@ -23,6 +22,8 @@ header {
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif !important;
+
 
 }
 
@@ -47,7 +48,7 @@ header {
 
 .nav-links {
     margin-top: 2.5vw;
-    margin-left: 43vw;
+    margin-left: 38vw;
 }
 
 
@@ -221,6 +222,16 @@ button {
     padding-bottom: 0.7vw auto;
 }
 
+button:hover {
+    font-size: 1vw;
+    width: 6vw;
+    height: 2.4vw;
+    text-align: center;
+    background-color: #275755;
+    color: white;
+    padding-bottom: 0.7vw auto;
+
+}
 
 
 

@@ -16,9 +16,8 @@ header {
 .logo {
     text-decoration: none;
     font-size: 2.8vw;
-    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    width: 20vw;
+    width: 24vw;
     height: 7.5vw;
     text-align: center;
     color: white;
@@ -28,6 +27,8 @@ header {
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif !important;
+
 
 }
 
@@ -52,7 +53,7 @@ header {
 
 .nav-links {
     margin-top: 2.5vw;
-    margin-left: 43vw;
+    margin-left: 38vw;
 }
 
 
@@ -106,7 +107,7 @@ main {
 .portfolio-container {
     margin-left: 10vw;
     width: 60vw;
-    height: 35vw;
+    height: 77vw;
     overflow: scroll;
     text-decoration: none;
 }
@@ -285,8 +286,8 @@ figcaption {
 .footer-container {
 
     border-top: #4aaaa5 7px solid;
-    margin-top: 40vw;
-    height: 7.5vw;
+    margin: 90vw auto 10vw auto;
+    height: 9vw;
     width: 100%;
     clear: both;
     text-align: center;
