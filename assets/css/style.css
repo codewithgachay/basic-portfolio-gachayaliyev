@@ -2,11 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,700');
 
 
-
-
-
-/* CODES FOR HEADER SECTION */
-
+/* HEADER STARTS HERE */
 header {
     display: inline-block;
     width: 100%;
@@ -14,7 +10,10 @@ header {
     border-bottom: #cccccc 2px solid;
 }
 
+/* *********************************** HEADER ENDS ************************************************ */
 
+
+/*  LOGO STARTS HERE */
 .logo {
     text-decoration: none;
     font-size: 2.8vw;
@@ -30,8 +29,6 @@ header {
     padding-bottom: 0px;
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif !important;
-
-
 }
 
 .logo,
@@ -39,19 +36,18 @@ header {
     float: left;
 }
 
+/* ************************************ LOGO ENDS *********************************************** */
+
+
+/* NAV BAR STARTS HERE */
 .nav-links li:nth-child(2),
 .nav-links li:nth-child(3) {
     border-left: 1px solid #cbcbcb;
 }
 
-.nav-links li {
-
-
-    padding-left: 0.5vw;
-    text-align: center;
-    font-size: 1vw;
-    display: inline-block;
-
+.nav-links a:hover,
+.nav-links li:hover {
+    color: #4aaaa5;
 }
 
 .nav-links {
@@ -60,13 +56,11 @@ header {
     margin-left: 38vw;
 }
 
-
-.nav-links a:hover,
-.nav-links li:hover {
-    color: #4aaaa5;
-
-
-
+.nav-links li {
+    padding-left: 0.5vw;
+    text-align: center;
+    font-size: 1vw;
+    display: inline-block;
 }
 
 .a-nav-link a {
@@ -76,13 +70,12 @@ header {
     padding-left: -12vw;
     margin-right: 0.8500000000000001vw;
     text-decoration: none;
-
-
 }
+
+/* ************************************ NAV BAR ENDS *********************************************** */
 
 
 /* CODES FOR MAIN CONTAINERS */
-
 main {
     clear: both;
 
@@ -93,19 +86,10 @@ main {
     padding-top: 0px;
 }
 
-.container {
-    box-sizing: border-box;
-    float: left;
-}
-
-h1 {
-    font-size: 3vw;
-}
-
+/* ************************************** MAIN ENDS ********************************************* */
 
 
 /* CODES FOR BIO CONTAINER */
-
 .bio-container {
     margin-left: 10vw;
     width: 60vw;
@@ -121,8 +105,14 @@ h1 {
     padding: 3vw;
 }
 
-h2 {
-    padding: 0px;
+/* HEADING,HR , IMAGE , PARAGHRAPS IN BIO CONTAINERS STARTS HERE */
+h1 {
+    font-size: 3vw;
+}
+
+.bio-hr {
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 .bio-photo {
@@ -130,11 +120,6 @@ h2 {
     width: 15vw;
     height: auto;
 }
-
-h1 {
-    font-size: 3vw;
-}
-
 
 .bio-container p {
     text-align: justify;
@@ -146,28 +131,25 @@ h1 {
     padding-top: 0px;
 }
 
-.bio-hr {
-    margin-left: 3vw;
-    margin-right: 3vw;
-}
-
-
-
+/* ************************** HEADING,HR , IMAGES , PARAGHRAPS ENDS HERE ************************ */
+/* *********************************** BIO ENDS ************************************************ */
 
 
 /* CODES FOR ASIDE CONTAINER */
+.aside-container {
+    margin-left: 2.5vw;
+    width: 20vw;
+    height: 15vw;
+}
 
+
+/* HEADING, HR, IMAGE, PARAGHRAPS IN ASIDE CONTAINERS STARTS HERE */
 .aside-h2 {
     margin-top: 1.6vw;
     font-size: 1.5vw;
     margin-bottom: 1.0999999999999999vw;
 }
 
-.aside-container {
-    margin-left: 2.5vw;
-    width: 20vw;
-    height: 15vw;
-}
 
 .aside-photo {
     width: 4.5vw;
@@ -183,6 +165,10 @@ h1 {
 
 }
 
+h2 {
+    padding: 0px;
+}
+
 .aside-figure {
     margin-top: 2.28vw;
     margin-left: 1.4vw;
@@ -196,8 +182,8 @@ h1 {
 
 }
 
-
-
+/* ************************** HEADING,HR , IMAGES , PARAGHRAPS IN ASIDE ENDS HERE ************************ */
+/* *************************************ASIDE ENDS ********************************************** */
 
 
 /* FOOTER CSS CODES */
@@ -218,28 +204,24 @@ footer>p {
     margin-top: 2.5vw;
 }
 
-
-
+/* **********************************FOOTER ENDS ************************************************* */
 
 
 /* COMMON CODES  */
 
+/* CODES FOR ALL ELEMENTS HAS CLASS "CONTAINER"  */
+.container {
+    box-sizing: border-box;
+    float: left;
+}
+
+/* ******************************** CODES FOR ALL ELEMENTS HAS CLASS "CONTAINE ENDS *************************************************** */
+
+
+/* CODES FOR ALL ELEMENTS ARE IN BIO AND ASIDE CONTAINERS */
 .bio-container,
 .aside-container {
     border: 1px solid gray;
-}
-
-
-h1,
-h2 {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    color: #4aaaa5;
-}
-
-header,
-.bio-container,
-.aside-container {
-    background-color: #ffffff;
 }
 
 .bio-container,
@@ -254,3 +236,22 @@ header,
     color: #dddddd;
 
 }
+
+h1,
+h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+}
+
+/* ****************************CODES FOR ALL ELEMENTS ARE IN BIO AND ASIDE CONTAINERS ENDS************* */
+
+
+/* CODES FOR ALL ELEMENTS ARE IN HEADER, BIO AND ASIDE CONTAINERS */
+header,
+.bio-container,
+.aside-container {
+    background-color: #ffffff;
+}
+
+/* ******************************CODES FOR ALL ELEMENTS ARE IN HEADER, BIO AND ASIDE CONTAINERS ENDS ******************* */
+/* **********************************COMMON CODES ENDS ************************************************* */
