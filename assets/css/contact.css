@@ -1,14 +1,3 @@
-/* CODES FOR HTML BODY  */
-
-body {
-    background-image: url(../images/concrete_seamless.png);
-
-}
-
-
-
-
-
 /* CODES FOR HEADER SECTION */
 
 header {
@@ -71,10 +60,12 @@ header {
 }
 
 .a-nav-link a {
-    font-size: 1.6vw;
+    color: #777777;
+    font-size: 2vw;
     text-align: center;
-    padding-left: 1vw;
+    padding-left: 0vw;
     margin-right: 0.8500000000000001vw;
+    text-decoration: none;
 
 }
 

@@ -1,9 +1,5 @@
-/* CODES FOR HTML BODY  */
-
-body {
-    background-image: url(../images/concrete_seamless.png);
-
-}
+/* ALL IPMORTED CSS CODES  */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,700');
 
 
 
@@ -22,7 +18,6 @@ header {
 .logo {
     text-decoration: none;
     font-size: 2.8vw;
-    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
     width: 20vw;
     height: 7.5vw;
@@ -49,6 +44,7 @@ header {
 
 .nav-links li {
 
+
     padding-left: 0.5vw;
     text-align: center;
     font-size: 1vw;
@@ -57,6 +53,7 @@ header {
 }
 
 .nav-links {
+
     margin-top: 2.5vw;
     margin-left: 45vw;
 }
@@ -71,16 +68,15 @@ header {
 }
 
 .a-nav-link a {
-    font-size: 1.6vw;
+    color: #777777;
+    font-size: 2vw;
     text-align: center;
-    padding-left: 1vw;
+    padding-left: -12vw;
     margin-right: 0.8500000000000001vw;
+    text-decoration: none;
+
 
 }
-
-
-
-
 
 
 /* CODES FOR MAIN CONTAINERS */
@@ -115,12 +111,16 @@ h1 {
     overflow: scroll;
 }
 
-.bio-container * {
+.bio-h1,
+.bio-hr,
+.bio-photo,
+.bio-p-2,
+.bio-p {
     padding: 3vw;
 }
 
 h2 {
-    padding: 0px !
+    padding: 0px;
 }
 
 .bio-photo {
@@ -137,6 +137,7 @@ h1 {
 .bio-container p {
     text-align: justify;
     font-size: 1.4000000000000001vw;
+    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -193,7 +194,6 @@ h1 {
     margin-right: 2vw;
 
 }
-
 
 
 
