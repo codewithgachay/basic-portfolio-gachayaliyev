@@ -125,7 +125,7 @@ p .bio-hr {
 }
 
 .bio-photo {
-    padding: 1.5vw 1vw 1vw 3vw;
+    padding: 1.5vw 1vw 0vw 3vw;
     float: left;
     width: 15vw;
     height: auto;
