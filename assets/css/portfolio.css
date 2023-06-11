@@ -7,6 +7,8 @@
 /* CODES FOR HEADER SECTION STARTS HERE  */
 
 header {
+    position: fixed;
+    top: 0;
     display: inline-block;
     width: 100%;
     height: 7.5vw;
@@ -43,10 +45,17 @@ header {
 
 
 /* NAV BAR STARTS HERE  */
-.nav-links li:nth-child(2),
-.nav-links li:nth-child(3) {
+
+nav li+li::before {
+    content: "";
     border-left: 1px solid #cbcbcb;
+    height: 1.5vw;
+    margin-right: 1vw;
+    box-sizing: border-box;
+    display: inline-block;
+
 }
+
 
 .nav-links li {
 
@@ -59,7 +68,7 @@ header {
 
 .nav-links {
     margin-top: 2.5vw;
-    margin-left: 38vw;
+    margin-left: 36vw;
 }
 
 
@@ -88,8 +97,18 @@ header {
 /* CODES FOR MAIN CONTAINERS STARTS HERE  */
 
 main {
+    margin-top: 10vw;
     clear: both;
 
+}
+
+main::after,
+main::before {
+    content: "";
+    height: 1.5vw;
+    box-sizing: border-box;
+    display: block;
+    clear: both;
 }
 
 .main-hr {
@@ -293,9 +312,8 @@ section h4 {
 
 /* FOOTER CSS CODES */
 .footer-container {
-
     border-top: #4aaaa5 7px solid;
-    margin: 90vw auto 10vw auto;
+    margin: 10vw auto 10vw auto;
     height: 9vw;
     width: 100%;
     clear: both;

@@ -8,6 +8,7 @@ header {
     width: 100%;
     height: 7.5vw;
     border-bottom: #cccccc 2px solid;
+
 }
 
 /*  LOGO STARTS HERE */
@@ -38,10 +39,10 @@ header {
 
 
 /* NAV BAR STARTS HERE */
-.nav-links li:nth-child(2),
+/* .nav-links li:nth-child(2),
 .nav-links li:nth-child(3) {
     border-left: 1px solid #cbcbcb;
-}
+} */
 
 .nav-links a:hover,
 .nav-links li:hover {
@@ -51,7 +52,7 @@ header {
 .nav-links {
 
     margin-top: 2.5vw;
-    margin-left: 38vw;
+    margin-left: 36vw;
 }
 
 .nav-links li {
@@ -68,6 +69,16 @@ header {
     padding-left: -12vw;
     margin-right: 0.8500000000000001vw;
     text-decoration: none;
+}
+
+nav li+li::before {
+    content: "";
+    border-left: 1px solid #cbcbcb;
+    height: 1.5vw;
+    margin-right: 1vw;
+    box-sizing: border-box;
+    display: inline-block;
+
 }
 
 /* ************************************ NAV BAR ENDS *********************************************** */
@@ -100,7 +111,6 @@ main {
     padding: 3vw;
 }
 
-/* HEADING,HR , IMAGE , PARAGHRAPS ARE IN THE BIO CONTAINERS STARTS HERE */
 h1 {
     font-size: 3vw;
 }
@@ -133,7 +143,6 @@ p .bio-hr {
     padding-top: 10px;
 }
 
-/* ************************** HEADING,HR , IMAGES , PARAGHRAPS ARE IN THE BIO CONTAINER ENDS HERE ************************ */
 /* *********************************** BIO ENDS ************************************************ */
 
 
@@ -144,8 +153,6 @@ p .bio-hr {
     height: 15vw;
 }
 
-
-/* HEADING, HR, IMAGE, PARAGHRAPS ARE IN THE ASIDE CONTAINERS STARTS HERE */
 .aside-h2 {
     margin-top: 1.6vw;
     font-size: 1.5vw;
@@ -184,7 +191,6 @@ h2 {
 
 }
 
-/* ************************** HEADING, HR, IMAGE, PARAGHRAPS ARE IN THE ASIDE CONTAINERS ENDS HERE ************************ */
 /* *************************************ASIDE ENDS ********************************************** */
 
 
@@ -198,6 +204,8 @@ h2 {
     clear: both;
     text-align: center;
     background-color: #666666;
+
+
 }
 
 footer>p {

@@ -36,10 +36,17 @@ header {
 /* ********* LOGO CODES ENDS HERE ********* */
 
 /* CODES FOR NAV BAR STARTS HERE  */
-.nav-links li:nth-child(2),
-.nav-links li:nth-child(3) {
+
+nav li+li::before {
+    content: "";
     border-left: 1px solid #cbcbcb;
+    height: 1.5vw;
+    margin-right: 1vw;
+    box-sizing: border-box;
+    display: inline-block;
+
 }
+
 
 .nav-links li {
 
@@ -52,7 +59,7 @@ header {
 
 .nav-links {
     margin-top: 2.5vw;
-    margin-left: 38vw;
+    margin-left: 36vw;
 }
 
 
