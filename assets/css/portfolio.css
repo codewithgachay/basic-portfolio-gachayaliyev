@@ -1,9 +1,10 @@
-/* ALL IPMORTED CSS CODES  */
+/* ALL IPMORTED CSS CODES STARTS HERE   */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,700');
+/*  *************** IMPORT ENDS HERE ****************** */
 
 
 
-/* CODES FOR HEADER SECTION */
+/* CODES FOR HEADER SECTION STARTS HERE  */
 
 header {
     display: inline-block;
@@ -12,7 +13,7 @@ header {
     border-bottom: #cccccc 2px solid;
 }
 
-
+/* CODES FOR LOGO STARTS HERE  */
 .logo {
     border-radius: 0.5vw;
     text-decoration: none;
@@ -38,6 +39,10 @@ header {
     float: left;
 }
 
+/*  ***************HEADER CONTAINER ENDS HERE ****************** */
+
+
+/* NAV BAR STARTS HERE  */
 .nav-links li:nth-child(2),
 .nav-links li:nth-child(3) {
     border-left: 1px solid #cbcbcb;
@@ -76,10 +81,11 @@ header {
 
 }
 
+/*  ***************NAV BAR ENDS HERE ****************** */
+/*  ***************HEADER CONTAINER ENDS HERE ****************** */
 
 
-
-/* CODES FOR MAIN CONTAINERS */
+/* CODES FOR MAIN CONTAINERS STARTS HERE  */
 
 main {
     clear: both;
@@ -97,13 +103,13 @@ main {
     float: left;
 }
 
+/*  *************** MAIN CONTAINER ENDS HERE ****************** */
 
 
 
 
 /* CODES FOR PORTFOLIO CONTAINER */
-
-/* Containers */
+/* PORTFOLIO CONTAINER ITSELF STARTS HERE  */
 
 .portfolio-container {
     margin-left: 10vw;
@@ -118,14 +124,53 @@ main {
     padding: 3vw;
 }
 
-.first-img-container,
-.more-container {
-    margin-left: 7vw !important;
-}
-
 .portfolio-container .container-b {
     display: inline-block;
     float: left;
+}
+
+/*  *************** PORTFOLIO CONTAINER ENDS HERE ****************** */
+
+
+/* FIGURE CONTAINERS STARTS HERE  */
+
+figcaption {
+    position: relative;
+    top: -2vw;
+    bottom: 5vw;
+    left: -0.5vw;
+    color: rgb(255, 255, 255);
+    font: smaller sans-serif;
+    padding: 0.15vw;
+    text-align: right;
+    opacity: 0.7;
+    line-height: 0.075vw;
+    margin-bottom: 4vw;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.fig-author {
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: 0vw;
+    bottom: 0vw;
+    left: 10vw;
+    color: #cbcbcb;
+    font-weight: 300;
+    font-size: 0.7vw;
+    text-transform: capitalize;
+    position: relative;
+    left: -0.1vw;
+    top: -1.3vw;
+}
+
+.first-img-container,
+.more-container {
+    margin-left: 7vw !important;
 }
 
 .second-picture-in-row,
@@ -150,9 +195,10 @@ main {
     -webkit-transition: opacity .5s ease-in-out;
 }
 
+/*  *************** FIGURE CONTAINER ENDS HERE ****************** */
 
 
-/* the other elements */
+/* THER OTHER ELEMENTS IN THE PORTFOLIO CONTAINER STARTS HERE  */
 
 h1 {
     font-size: 3vw;
@@ -194,44 +240,8 @@ section h4 {
     margin-right: 3vw;
 }
 
-
-
-figcaption {
-    position: relative;
-    top: -2vw;
-    bottom: 5vw;
-    left: -0.5vw;
-    color: rgb(255, 255, 255);
-    font: smaller sans-serif;
-    padding: 0.15vw;
-    text-align: right;
-    opacity: 0.7;
-    line-height: 0.075vw;
-    margin-bottom: 4vw;
-    text-transform: uppercase;
-    font-size: 1vw;
-    font-weight: 700;
-    font-family: "Montserrat", sans-serif;
-
-}
-
-.fig-author {
-    font-family: "Montserrat", sans-serif;
-    position: relative;
-    top: 0vw;
-    bottom: 0vw;
-    left: 10vw;
-    color: #cbcbcb;
-    font-weight: 300;
-    font-size: 0.7vw;
-    text-transform: capitalize;
-    position: relative;
-    left: -0.1vw;
-    top: -1.3vw;
-}
-
-
-
+/* ************* THER OTHER ELEMENTS IN THE PORTFOLIO CONTAINER ENDS HERE  ******************* */
+/* ************* PORTFOLIO CONTAINER ENDS HERE  ******************* */
 
 
 
@@ -278,9 +288,7 @@ figcaption {
 
 }
 
-
-
-
+/* ************* ASIDE CONTAINER ENDS HERE  ******************* */
 
 
 /* FOOTER CSS CODES */
@@ -301,9 +309,7 @@ footer>p {
     margin-top: 2.5vw;
 }
 
-
-
-
+/* ************* FOOTER CONTAINER ENDS HERE  ******************* */
 
 
 /* COMMON CODES  */
@@ -339,3 +345,5 @@ header,
     color: #dddddd;
 
 }
+
+/* ************* COMMON CODES  ENDS HERE  ******************* */

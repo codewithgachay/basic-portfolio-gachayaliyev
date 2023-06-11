@@ -10,9 +10,6 @@ header {
     border-bottom: #cccccc 2px solid;
 }
 
-/* *********************************** HEADER ENDS ************************************************ */
-
-
 /*  LOGO STARTS HERE */
 .logo {
     border-radius: 0.5vw;
@@ -74,7 +71,7 @@ header {
 }
 
 /* ************************************ NAV BAR ENDS *********************************************** */
-
+/* *********************************** HEADER ENDS ************************************************ */
 
 /* CODES FOR MAIN CONTAINERS */
 main {
@@ -103,12 +100,12 @@ main {
     padding: 3vw;
 }
 
-/* HEADING,HR , IMAGE , PARAGHRAPS IN BIO CONTAINERS STARTS HERE */
+/* HEADING,HR , IMAGE , PARAGHRAPS ARE IN THE BIO CONTAINERS STARTS HERE */
 h1 {
     font-size: 3vw;
 }
-p
-.bio-hr {
+
+p .bio-hr {
     margin-left: 3vw;
     margin-right: 3vw;
 }
@@ -136,7 +133,7 @@ p
     padding-top: 10px;
 }
 
-/* ************************** HEADING,HR , IMAGES , PARAGHRAPS ENDS HERE ************************ */
+/* ************************** HEADING,HR , IMAGES , PARAGHRAPS ARE IN THE BIO CONTAINER ENDS HERE ************************ */
 /* *********************************** BIO ENDS ************************************************ */
 
 
@@ -148,7 +145,7 @@ p
 }
 
 
-/* HEADING, HR, IMAGE, PARAGHRAPS IN ASIDE CONTAINERS STARTS HERE */
+/* HEADING, HR, IMAGE, PARAGHRAPS ARE IN THE ASIDE CONTAINERS STARTS HERE */
 .aside-h2 {
     margin-top: 1.6vw;
     font-size: 1.5vw;
@@ -187,7 +184,7 @@ h2 {
 
 }
 
-/* ************************** HEADING,HR , IMAGES , PARAGHRAPS IN ASIDE ENDS HERE ************************ */
+/* ************************** HEADING, HR, IMAGE, PARAGHRAPS ARE IN THE ASIDE CONTAINERS ENDS HERE ************************ */
 /* *************************************ASIDE ENDS ********************************************** */
 
 
@@ -214,16 +211,26 @@ footer>p {
 
 /* COMMON CODES  */
 
-/* CODES FOR ALL ELEMENTS HAS CLASS "CONTAINER"  */
+/* CODES FOR ALL ELEMENTS THAT HAVE THE CLASS "CONTAINER" STARTS HERE */
 .container {
     box-sizing: border-box;
     float: left;
 }
 
-/* ******************************** CODES FOR ALL ELEMENTS HAS CLASS "CONTAINE ENDS *************************************************** */
+/* ******************************** CODES FOR ALL ELEMENTS THAT HAVE THE CLASS "CONTAINER ENDS HERE *************************************************** */
 
 
-/* CODES FOR ALL ELEMENTS ARE IN BIO AND ASIDE CONTAINERS */
+/* CODES FOR ALL ELEMENTS ARE IN THE HEADER,THE  BIO AND THE ASIDE CONTAINERS */
+header,
+.bio-container,
+.aside-container {
+    background-color: #ffffff;
+}
+
+/* ******************************CODES FOR ALL ELEMENTS ARE IN HEADER, BIO AND ASIDE CONTAINERS ENDS ******************* */
+
+
+/* CODES FOR ALL ELEMENTS ARE IN THE BIO AND THE ASIDE CONTAINERS */
 .bio-container,
 .aside-container {
     border-radius: 0.5vw;
@@ -249,15 +256,5 @@ h2 {
     color: #4aaaa5;
 }
 
-/* ****************************CODES FOR ALL ELEMENTS ARE IN BIO AND ASIDE CONTAINERS ENDS************* */
-
-
-/* CODES FOR ALL ELEMENTS ARE IN HEADER, BIO AND ASIDE CONTAINERS */
-header,
-.bio-container,
-.aside-container {
-    background-color: #ffffff;
-}
-
-/* ******************************CODES FOR ALL ELEMENTS ARE IN HEADER, BIO AND ASIDE CONTAINERS ENDS ******************* */
+/* ****************************CODES FOR ALL ELEMENTS ARE IN THE BIO AND THE ASIDE CONTAINERS ENDS HERE************* */
 /* **********************************COMMON CODES ENDS ************************************************* */
