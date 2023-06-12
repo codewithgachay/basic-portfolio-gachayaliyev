@@ -37,12 +37,16 @@ header {
 
 /* ************************************ LOGO ENDS *********************************************** */
 
-
-/* NAV BAR STARTS HERE */
-/* .nav-links li:nth-child(2),
-.nav-links li:nth-child(3) {
+/* NAV BAR STARTS HERE  */
+nav li+li::before {
+    content: "";
     border-left: 1px solid #cbcbcb;
-} */
+    height: 1.5vw;
+    margin-right: 1vw;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
 
 .nav-links a:hover,
 .nav-links li:hover {
@@ -71,15 +75,6 @@ header {
     text-decoration: none;
 }
 
-nav li+li::before {
-    content: "";
-    border-left: 1px solid #cbcbcb;
-    height: 1.5vw;
-    margin-right: 1vw;
-    box-sizing: border-box;
-    display: inline-block;
-
-}
 
 /* ************************************ NAV BAR ENDS *********************************************** */
 /* *********************************** HEADER ENDS ************************************************ */
