@@ -155,7 +155,7 @@ main::before {
 /* FIGURE CONTAINERS STARTS HERE  */
 
 figcaption {
-
+    background-color: rgba(0, 0, 0, 0);
     position: relative;
     bottom: 2vw;
     right: 0.5vw;
@@ -244,7 +244,7 @@ h1 {
 
 section h3 {
     font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
+    font-size: 4VW;
     text-transform: uppercase;
     margin: 0;
     text-align: center;
