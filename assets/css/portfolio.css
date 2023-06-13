@@ -157,16 +157,15 @@ main::before {
 figcaption {
 
     position: relative;
-    top: -2vw;
-    bottom: 5vw;
-    left: -0.5vw;
+    bottom: 3.4vw;
+    right: 0.5vw;
     color: rgb(255, 255, 255);
     font: smaller sans-serif;
     padding: 0.15vw;
     text-align: right;
     opacity: 0.7;
     line-height: 0.075vw;
-    margin-bottom: 4vw;
+    margin-bottom: 2vw;
     text-transform: uppercase;
     font-size: 1vw;
     font-weight: 700;
@@ -174,13 +173,26 @@ figcaption {
 
 }
 
-.fig-author {
+figcaption::after,
+figcaption::before {
+    content: "";
+    height: 1.5vw;
+    box-sizing: border-box;
+    display: block;
+    clear: both;
 
+}
+
+.fig-title {
+    position: absolute;
+    right: 0;
+}
+
+.fig-author {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     font-family: "Montserrat", sans-serif;
-    position: relative;
-    top: 0vw;
-    bottom: 0vw;
-    left: 10vw;
     color: #cbcbcb;
     font-weight: 300;
     font-size: 0.7vw;
