@@ -116,18 +116,18 @@ p .bio-hr {
 }
 
 .pharagraph-container {
-    padding: 1vw 3vw;
+    padding: 2vw 3vw;
 }
 
 .bio-photo {
-    padding: 1.5vw 1vw 0vw 3vw;
+    padding: 2vw 1vw 0vw 3vw;
     float: left;
     width: 15vw;
     height: auto;
 }
 
 .bio-container p {
-    padding-top: 1vw 3vw 2vw 3vw;
+    padding-top: 0vw 3vw 2vw 3vw;
     color: #777777;
     text-align: justify;
     font-size: 1.4000000000000001vw;
