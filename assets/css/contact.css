@@ -183,23 +183,32 @@ input:hover,
 textarea:hover,
 .form-hr:hover {
     border: #4aaaa5 2px solid;
+    box-shadow: 0 0 10px #4aaaa5;
 }
 
 input[type="text"]:focus,
 input[type="text"]:focus,
 textarea:focus {
     border: 2px solid #4aaaa5;
+
 }
 
 /* *************CODES ARE ALMOST RELATED TO THE ALL ELEMENTS IN THE FORM CONTAINER ENDS HERE ***************** */
 
 
 /* THE ONLY INPUT ELEMENTS STARTS HERE  */
+
+input {
+    height: 1.9vw;
+}
+
+
 input:focus {
     outline: none !important;
     border-color: #4aaaa5;
-    box-shadow: 0 0 10px #4aaaa5;
+
 }
+
 
 /* *************THE ONLY INPUT ELEMENTS ENDS HERE ***************** */
 
@@ -238,10 +247,6 @@ label {
     color: rgb(93, 93, 93);
 }
 
-input {
-    height: 1.9vw;
-}
-
 /* ************* INPUT ENDS HERE ***************** */
 
 
@@ -250,7 +255,7 @@ input {
 textarea:focus {
     outline: none !important;
     border-color: #4aaaa5;
-    box-shadow: 0 0 10px #4aaaa5;
+
 }
 
 textarea {
@@ -285,11 +290,11 @@ button:hover {
     padding: auto auto;
 }
 
-button:hover,
-button:focus {
+button:hover {
     border-color: #4aaaa5;
     box-shadow: 0 0 10px #4aaaa5;
 }
+
 
 /* ************* BUTTON ENDS HERE ***************** */
 
